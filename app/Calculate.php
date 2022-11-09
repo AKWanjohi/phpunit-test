@@ -18,4 +18,9 @@ class Calculate
     {
         return $x * $y;
     }
+
+    public function divide($x, $y)
+    {
+        return $x / $y;
+    }
 }
